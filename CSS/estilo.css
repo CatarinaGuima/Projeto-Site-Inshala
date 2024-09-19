@@ -1,0 +1,111 @@
+body {
+  background-color: lightgoldenrodyellow;
+  margin: 0%;
+  padding: 0%;
+}
+
+.name {
+  background-color: black;
+  color: goldenrod;
+  position: fixed;
+  height: 45px;
+  width: 100%;
+  margin-top: 0px;
+}
+
+#welcome {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#ouro {
+  color: sienna;
+}
+
+.dropdown {
+  display: flex;
+  position: relative;
+  display: inline-table;
+}
+
+.dropdown-child {
+  display: none;
+  background-color: sienna;
+  min-width: 20px;
+}
+
+.dropdown-child a {
+  color: lightgoldenrodyellow;
+  padding: 20px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown:hover .dropdown-child {
+  display: block;
+}
+
+.border {
+  border: 5px black solid;
+}
+
+#busca {
+  float: right;
+}
+
+#lupa {
+  float: right;
+}
+
+.button {
+  background: black;
+  font-family: Arial, Helvetica, sans-serif;
+  color: goldenrod;
+  border: 2px solid whitesmoke;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px goldenrod;
+  text-shadow: currentColor;
+  text-decoration: solid;
+}
+
+
+.link1{
+ color: black;
+}
+
+.link1:hover {
+  color: goldenrod;
+}
+
+.textarea {
+  border: 2px black dashed;
+}
+
+.enviarecomprar {
+  cursor: pointer;
+  background: black;
+  color: goldenrod;
+  text-decoration: solid;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.enviarecomprar:hover {
+  transform: scale(1.05);
+}
+
+.list-inline li{
+  display: flex;
+  align-items: center;
+}
+
+table{
+  align-items: center;
+  border: 10px double black;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.img{
+  margin-left: 10%;
+  margin-right: 10%;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="Stylesheet" href="css/estilo.css" />
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <script>
+      function contato(){
+        alert("Mensagem enviada com sucesso!");
+      }
+
+    </script>
+    <title>Contato</title>
+  </head>
+  <body>
+    <h1 style="text-align: center;" class="name">INSHALÁ</h1>
+    <pre>
+
+      
+    </pre>
+    <a href="index.html"> Página Inicial </a>
+    <br>
+    <br>
+    <form>
+      <fieldset>
+        <legend>DADOS PESSOAIS</legend>
+        Nome*:
+        <input type="text" size="20px" name="nome" required /> Sobrenome*:
+        <input size="30px" type="text" name="sobrenome" required />
+        <label for="email">E-mail</label>
+        <input
+          size="40px"
+          type="email"
+          id="email"
+          name="email"
+          required
+        /><br />
+        <br />
+        <label for="telefone">Telefone</label>
+        <input
+          size="10px"
+          type="tel"
+          id="telefone"
+          name="telefone"
+          placeholder="(__)_____-____"
+          required
+        />
+        <br>
+        <br>
+        <label for="datadenascimento"> Data de Nascimento</label>
+        <input
+          type="datetime-local"
+          id="datadenascimento"
+          name="datadenascimento"
+        />
+        Sexo: <input type="radio" name="sexo" value="f" /> Feminino
+        <input type="radio" name="sexo" value="m" /> Masculino
+        <input type="radio" name="sexo" value="o" /> Outros
+        <br />
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend>MENSAGEM:</legend>
+        Título: <input size="50px" type="text" /><br />
+        <br />
+        Motivo:
+        <select name="motivo" id="motivo">
+          <option value="sugestoes">Sugestões</option>
+          <option value="reclamacoes">Reclamações</option>
+          <option value="elogios">Elogios</option>
+          <option value="devolucao/troca">Devolução/Troca</option>
+        </select>
+        <br />
+        <br />
+        <textarea
+          class="textarea"
+          rows="20"
+          cols="60"
+          style="resize: none"
+          placeholder="Insira a sua mensagem aqui:"
+        ></textarea>
+      </fieldset>
+      <br>
+      <input type="submit" class="enviarecomprar" onclick="contato()" />
+    </form>
+  </body>
+</html>
